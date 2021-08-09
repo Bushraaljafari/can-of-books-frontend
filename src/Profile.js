@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { withAuth0 } from '@auth0/auth0-react';
 import Content from './Components/Content';
+import BestBooks from './BestBooks';
+
 
 
 class Profile extends Component {

@@ -30,7 +30,6 @@ class App extends React.Component {
               <Route exact path="/">
               {this.props.auth0.isAuthenticated && <Login />}
                 {this.props.auth0.isAuthenticated && <BestBooks />}
-                {/* */}
                 
                 {/* TODO: if the user is logged in, render the `BestBooks` component, if they are not, render the `Login` component */}
               </Route>
