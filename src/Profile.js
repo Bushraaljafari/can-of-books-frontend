@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { withAuth0 } from '@auth0/auth0-react';
-//import Content from './components/Content';
+import Content from './components/Content';
+
+
 
 
 class Profile extends Component {
@@ -11,11 +13,11 @@ class Profile extends Component {
       isAuthenticated &&
       <div>
         <img src={user.picture} alt={user.name} />
-        <div> {user.name}</div>
+        <div>Hello {user.name}</div>
         <p>
           {user.email}
         </p>
-        {/* <Content />*/}
+        <Content /> 
         
       </div>
     );
