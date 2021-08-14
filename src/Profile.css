@@ -1,0 +1,19 @@
+.profile-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 0px auto;
+    align-content: space-around;
+}
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+.profile-container h2{
+    font-family: 'Goblin One', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.profile-container p{
+    font-family: 'Lora', serif;
+    color: rgb(71, 69, 69);
+}

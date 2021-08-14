@@ -5,7 +5,7 @@ import Footer from './Footer';
 import { withAuth0 } from '@auth0/auth0-react';
 import BestBooks from './BestBooks';
 import Profile from './Profile';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import {
@@ -26,7 +26,7 @@ class App extends React.Component {
             <Header />
             <Switch>
               <Route exact path="/">
-              {this.props.auth0.isAuthenticated && <Login />}
+              {!this.props.auth0.isAuthenticated && <Login />}
                 {this.props.auth0.isAuthenticated && <BestBooks />}
                 {/* */}
                 

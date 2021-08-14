@@ -15,7 +15,7 @@ class BestBooks extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      ownerEmail: this.props.auth0.user.email,
+      email: this.props.auth0.user.email,
       books: [],
       displayAddModal:false,
       showUpdateModal:false,

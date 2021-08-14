@@ -5,3 +5,11 @@ a{
 a:hover{
   color:darkgrey;
 }
+
+.navbar a{
+  margin: auto;
+}
+
+.navbar button{
+  margin-left: auto;
+}
